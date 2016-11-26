@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index1</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" id="viewport">
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" type="text/css">
+    <script type="javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="javascript" src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <a href="#" data-icon="../images">左按钮</a>
+            <h1>考拉菜谱</h1>
+            <a href="#">右按钮</a>
+        </div>
+        <div data-role="content">
+            页面1
+            <a href="#page2" data-transition="flip">跳转</a>
+            //跳转到外部页面
+            <a href="index2.html" rel="external">跳转</a>
+        </div>
+        <div data-role="footer" data-position="fixed"></div>
+    </div>
+
+    <div data-role="page" id="page2">
+        <div data-role="header"></div>
+        <div data-role="content">
+            页面2
+        </div>
+        <div data-role="footer" data-position="fixed"></div>
+    </div>
+</body>
+</html>
